@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === Backend (Flask/Python) ===
+backend/__pycache__/
+backend/.pytest_cache/
+backend/*.py[cod]
+backend/.env
+backend/scraping/__pycache__/
+backend/scraping/.pytest_cache/
+backend/scraping/auth.json
+backend/playwright-report/
+backend/test-results/
+
+
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+
+
+# === Frontend (React/Vite) ===
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.env
+frontend/.env.local

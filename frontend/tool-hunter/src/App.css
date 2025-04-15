@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+#whole-body {
+  object-fit: fill;
+}
+#Title {
+  font-size: 100px;
+}
+#search {
+  max-width: 467px;
+}
+#delivery,
+#price {
+  font-size: 2vh;
+}
+/* Desktop 1024 x 768
+Mobile 320 x 480
+Tablet 768 x 1024 */
+
+@media screen and (max-width: 490px) {
+  #search {
+    max-width: 350px;
+  }
+  #Title {
+    font-size: 15vw;
+  }
+  #product-description {
+    font-size: 4vw;
+  }
+  #price {
+    font-size: 4vw;
+  }
+
+  /* #description-section {
+    width: 200px;
+  } */
+}
+
+@media screen and (max-width: 630px) {
+  #description-section {
+    width: 200px;
+  }
+
+  #detail-each-product {
+    margin-left: auto;
+  }
+  #store {
+    margin-right: auto;
+  }
+  #img-section {
+    /* justify-self: center; */
+  }
+}
+
+@media screen and (max-width: 787px) {
+  #store {
+    margin-right: 5px;
+  }
+  #detail-each-product {
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 350px) {
+  #search {
+    max-width: 250px;
+  }
+}
