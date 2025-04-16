@@ -126,8 +126,8 @@ function Search({ setProductList, URL }) {
 }
 
 function ProductResultsEx({ productList, low_high, setProductList }) {
-  const ChangeOrder = () => {
-    setProductList(low_high(productList));
+  const ChangeOrder = (e) => {
+    setProductList(low_high(productList, e.target.value));
 
     console.log(productList);
   };
@@ -145,7 +145,7 @@ function ProductResultsEx({ productList, low_high, setProductList }) {
                 >
                   <option selected>Sort by</option>
                   <option value="Low to High">Low to High</option>
-                  <option value="Hight to Low">High to Low</option>
+                  <option value="High to Low">High to Low</option>
                 </select>
               </div>
             </form>
