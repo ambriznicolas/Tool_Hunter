@@ -17,8 +17,6 @@ Hello everyone! This is a full-stack web application that scrapes product data s
 - Backend: Flask
 - Scraper: Playwright
 
-##support
-
 ## 🧠 Challenges
 
 - How to extract and clean data using Playwright
