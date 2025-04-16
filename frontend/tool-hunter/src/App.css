@@ -13,6 +13,7 @@
 #price {
   font-size: 2vh;
 }
+
 /* Desktop 1024 x 768
 Mobile 320 x 480
 Tablet 768 x 1024 */
@@ -21,6 +22,10 @@ Tablet 768 x 1024 */
   #search {
     max-width: 350px;
   }
+  #store-selected {
+    max-width: 250px;
+  }
+
   #Title {
     font-size: 15vw;
   }
@@ -46,9 +51,6 @@ Tablet 768 x 1024 */
   }
   #store {
     margin-right: auto;
-  }
-  #img-section {
-    /* justify-self: center; */
   }
 }
 

@@ -1,4 +1,4 @@
-import LowHigh from "../src/hooks/Sort.js";
+// import LowHigh from "../src/hooks/Sort.js";
 let productList = [
   {
     product: "Twins Boxing Gloves Velcro MMA Muay thai Sparring Leather Green",
@@ -9,7 +9,7 @@ let productList = [
   {
     product: "Twins Boxing Gloves Velcro MMA Muay thai Sparring Leather White",
     image: "https://i.ebayimg.com/images/g/pPIAAOSwo2xnviPs/s-l500.webp",
-    delivery: "152.99",
+    delivery: "$15.99 delivery",
     price: "$159.99",
   },
   {
@@ -21,7 +21,7 @@ let productList = [
   {
     product: "Twins Boxing Gloves Velcro MMA Muay thai Sparring Leather Maroon",
     image: "https://i.ebayimg.com/images/g/no8AAOSwAVNnR4-2/s-l500.webp",
-    delivery: "5.99 Delivery",
+    delivery: "$5.99 Delivery",
     price: "$129.99",
   },
   {
@@ -31,7 +31,7 @@ let productList = [
     price: "$95.99",
   },
 ];
-console.log(LowHigh(productList));
+// console.log(LowHigh(productList));
 export default productList;
 
 // for (let i = 0; i < productList.length; i++) {

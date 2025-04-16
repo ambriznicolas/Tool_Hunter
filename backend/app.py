@@ -9,7 +9,7 @@ CORS(app)
 
 @app.post("/scrape")
 def search():
-   search_product = request.get_json()["product"]
+   search_product = request.get_json()["product","store"]
    product_list = asyncio.run(main(search_product))
    return jsonify(product_list)
 

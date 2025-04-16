@@ -14,14 +14,13 @@ class SearchProducts:
         await self.search_term_input.fill(text)
         await self.page.locator('#gh-search-btn').click()
         await self.page.wait_for_timeout(60000) 
-        # Products(self.page.url)
+
         return self.page.url
 
 # id = "gh-search-btn" Button 
 class Products:
     def __init__(self, page):
          self.page = page
-        #  self.price = page.locator("xpath=//div[starts-with(@class, 's-item__price')")
          self.price = page.locator('[class*="s-item__price"]')
          self.product =  page.locator('[aria-level="3"]')
          self.image = page.locator('div[class*="s-item__image-wrapper"] img')
