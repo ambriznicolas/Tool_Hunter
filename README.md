@@ -2,7 +2,7 @@
 
 Hello everyone! This is a full-stack web application that scrapes product data such as the title, price, delivery information, and image, in order to easily showcase it to the user based on the selected store.
 
-##Tools Used
+## Tools Used
 
 - 🌐 Web scraping with Playwright
 - 📊 Backend API built with Flask
@@ -11,7 +11,7 @@ Hello everyone! This is a full-stack web application that scrapes product data s
 - 🌙 Responsive design used by TailwindCSS
 - 💾 Stores data locally JSON
 
-##Stack
+## Stack
 
 - Frontend: React, TailwindCSS
 - Backend: Flask
@@ -19,7 +19,7 @@ Hello everyone! This is a full-stack web application that scrapes product data s
 
 ##support
 
-##🧠 Challenges
+## 🧠 Challenges
 
 - How to extract and clean data using Playwright
 - Handling proxy rotation
