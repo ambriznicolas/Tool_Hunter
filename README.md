@@ -1,6 +1,6 @@
 # Tool Hunter 🔧🕵️
 
-Hello everyone! This is a full-stack web application that scrapes product data such as the title, price, delivery information, and image, in order to easily showcase it to the user based on the selected store.
+Hello everyone! This is a full-stack web application that scrapes product data such as the title, price, delivery information, and image, in order to easily showcase it to the user based on the selected store (currently only ebay).
 
 ## Tools Used
 
@@ -17,8 +17,9 @@ Hello everyone! This is a full-stack web application that scrapes product data s
 - Backend: Flask
 - Scraper: Playwright
 
-## 🧠 Challenges
+## 🧱 Challenges Faced
 
 - How to extract and clean data using Playwright
-- Handling proxy rotation
-- CAPTCHA
+- Handling proxy rotation to avoid being blocked
+- Dealing with CAPTCHAs and bot detection while scraping the stores
+- Learning to mimic real user behavior to bypass anti-bot systems more effectively
